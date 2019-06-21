@@ -1,0 +1,5 @@
+ifconfig enxc4f312708e21 192.168.7.1
+iptables --table nat --append POSTROUTING --out-interface wlp2s0 -j MASQUERADE
+iptables --append FORWARD --in-interface enxc4f312708e21 -j ACCEPT
+echo 1 > /proc/sys/net/ipv4/ip_forward
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf

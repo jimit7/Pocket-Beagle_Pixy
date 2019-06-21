@@ -1,0 +1,5 @@
+ifconfig enx606405f7864f 192.168.6.1
+iptables --table nat --append POSTROUTING --out-interface wlp2s0 -j MASQUERADE
+iptables --append FORWARD --in-interface enx606405f7864f -j ACCEPT
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
