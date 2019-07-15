@@ -1,1 +1,1 @@
-# Pocket_Beagle_Pixy.
+# Pocket_Beagle_Pixy
