@@ -1,6 +1,6 @@
 #include <SPI.h>  
 #include <Pixy.h>
-
+// Project base source code
 Pixy pixy;
 
 int signature = 0;
@@ -77,7 +77,7 @@ void loop()
      }
 }
 
-void backward()//backward
+void backwards()//backward
   {
   digitalWrite(motor1, LOW);
   digitalWrite(motor2, LOW);
