@@ -12,7 +12,8 @@
 // Portions of this code are derived from the Pixy CMUcam5 pantilt example code.
 //
  
- <p>#include <SPI.h><br>#include <Pixy.h>
+// 
+#include <SPI.h><br>#include <Pixy.h>
 #include <Servo.h></p>
 #define X_CENTER 160L
 #define Y_CENTER 100L
